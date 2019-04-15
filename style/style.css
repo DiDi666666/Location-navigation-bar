@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+#content{
+	width:800px;
+	margin:0 auto;
+	padding:20px;
+}
+#content h1{
+	color:#06F;
+	margin-bottom:15px;
+}
+#content .Floor{
+	border: dotted thin #06F;
+	padding:20px;
+	margin-bottom:20px;
+	
+}
+#content h2{
+	border-bottom:solid medium #06F;
+	margin-bottom:10px;
+}
+#content .Floor li{
+	display:inline;
+	margin-left:10px;
+}
+#content .Floor img{
+	width:230px;
+	height:230px;
+}
+
+#menu{
+	position:fixed;
+	top:100px; 
+	left:50%;      /*先居中*/
+	margin-left:400px;   /*再相对于居中的位置右移，实现窗口大小变化时，导航栏位置跟着居中改变*/ 
+	width:80px;
+}
+#menu a{
+	display:block;
+	width:80px;
+	height:50px;
+	margin-bottom:5px;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	line-height:50px;
+}
+#menu a:hover,#menu .current{
+	color:#FFF;
+	background-color:#06F;
+}
