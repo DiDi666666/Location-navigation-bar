@@ -1,5 +1,5 @@
 # Location-navigation-bar
-网页定位导航栏（jquery）  点击链接，查看最终效果：https://didi666666.github.io/Location-navigation-bar/
+网页定位导航栏（jquery）  点击链接，查看最终效果：https://didi666666.github.io/Location_Navigation_Bar/
 
 实现思路
 
